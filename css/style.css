@@ -172,3 +172,7 @@ h1.rz-title {
 .rz-navbar .navbar-form {
   border-color: #e7e7e7;
 }
+
+.embed-responsive {
+  margin-bottom: 30px;
+}
