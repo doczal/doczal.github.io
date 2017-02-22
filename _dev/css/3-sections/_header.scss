@@ -1,0 +1,98 @@
+$header-height: 120px;
+$header-height-m: 80px;
+
+body {
+  background-color: $gb-color-4;
+  background-image: url('/assets/img/background1.svg');
+  background-size: contain;
+}
+
+header {
+  height: $header-height;
+  background-color: $bg-color-1;
+  position: relative;
+  box-shadow: 0 2px 8px $darkgrey-2;
+  transition: 0.3s;
+
+  @media screen and (max-width: 600px) {
+    height: $header-height-m;
+  }
+
+  .header-wrap {
+    height: 100%;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: $cart-color-2;
+
+    .header-main {
+      float: left;
+      height: 100%;
+      width: 60%;
+      position: relative;
+      text-align: center;
+      padding: 10px 20px;
+      box-sizing: border-box;
+
+      a {
+        display: block;
+        font-family: 'Dosis';
+        text-transform: uppercase;
+        font-size: 3em;
+        line-height: $header-height - 20px - 8px;
+        text-decoration: none;
+        color: $gb-color-4;
+        transition: 0.3s;
+        white-space: nowrap;
+        overflow: hidden;
+
+        &:hover {
+          letter-spacing: 0.05em;
+        }
+
+        @media screen and (max-width: 600px) {
+          line-height: $header-height-m - 20px - 8px;
+          font-size: 2em;
+        }
+
+        @media screen and (max-width: 420px) {
+          font-size: 1.4em;
+        }
+      }
+
+      .game-screen {
+        box-sizing: border-box;
+        background-color: $gb-color-1;
+        border-radius: 8px;
+        border: 4px solid $darkgrey-2;
+      }
+    }
+
+    [class^="side-panel-"] {
+      display: block;
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 20%;
+      box-sizing: border-box;
+      background-color: $bg-color-1;
+      padding: 2%;
+
+      &.side-panel-l {
+        border-radius: 0 0 24px 0;
+      }
+
+      &.side-panel-r {
+        border-radius: 0 0 0 24px;
+      }
+    }
+  }
+}
+
+/*
+@media screen and (max-width: 480px) {
+  header {
+    height: $header-height-m;
+  }
+}
+*/

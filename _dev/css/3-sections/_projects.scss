@@ -1,0 +1,167 @@
+section#projects {
+  @extend .clearfix;
+  width: 86%;
+  max-width: 1170px;
+  margin: 40px auto 0;
+  box-shadow: 0 0 12px $darkgrey-2;
+
+  @media screen and (max-width: 600px) {
+    width: 86%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 86%;
+  }
+
+  [class^="project-wrap"] {
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    height: 390px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+    color: $darkgrey-2;
+
+    &.project-wrap-odd-1, &.project-wrap-even-2 {
+      background-color: $bg-color-1;
+    }
+
+    &.project-wrap-odd-2, &.project-wrap-even-1 {
+      background-color: #dedede;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      &.project-wrap-odd-1, &.project-wrap-odd-2 {
+        background-color: $bg-color-1;
+      }
+
+      &.project-wrap-even-1, &.project-wrap-even-2 {
+        background-color: $bg-color-2;
+      }
+    }
+
+    &:hover {
+      color: $bg-color-1;
+      background-color: $gb-color-1;
+      .project-cart {
+        margin-top: 5px;
+      }
+
+      color: $gb-color-4;
+
+    }
+
+    .project-title {
+      margin: 16px 0 0;
+    }
+
+    .project-desc {
+      margin: 5px 0 5px;
+      padding: 0 6%;
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 340px;
+
+      .project-title {
+        font-size: 1em;
+      }
+
+      .project-desc {
+        font-size: 0.9em;
+      }
+    }
+
+    .project-cart {
+      position: relative;
+      margin: 20px auto 10px;
+      height: 270px;
+      width: 260px;
+      text-align: center;
+      transition: margin-top 0.3s;
+
+      @media screen and (max-width: 768px) {
+        width: 220px;
+        height: 230px;
+      }
+
+      [class^="cart-part"] {
+        box-sizing: border-box;
+        background-color: $cart-color-2;
+      }
+
+      .cart-part-l {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 90%;
+      }
+
+      .cart-part-r {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 96%;
+        width: 10%
+      }
+
+      .cart-title {
+        position: absolute;
+        top: 6%;
+        border-radius: 20px;
+        width: 80%;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        background-color: $cart-color-1;
+
+        font-size: 1.25em;
+        font-family: 'Dosis';
+        text-transform: uppercase;
+        box-shadow: 0 -2px #7a7a7a;
+        //text-shadow: -1px 1px #7a7a7a;
+        color: $cart-color-2;
+      }
+
+      .cart-image {
+        display: block;
+        position: absolute;
+        bottom: 6%;
+        width: 68%;
+        height: 68%;
+        background-color: $cart-color-1;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+      }
+
+      [class^="side-sticker"] {
+        position: absolute;
+        bottom: 6%;
+        width: 6%;
+        background-color: $bg-color-2;
+        height: 68%;
+        z-index: 3;
+
+        &.side-sticker-l {
+          left: 10%;
+          border-radius: 8px 0 0 8px;
+        }
+
+        &.side-sticker-r {
+          right: 10%;
+          border-radius: 0 8px 8px 0;
+        }
+      }
+    }
+
+
+  }
+}

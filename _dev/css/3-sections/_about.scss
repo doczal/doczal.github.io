@@ -1,0 +1,22 @@
+section#about {
+  width: 80%;
+  text-align: center;
+  max-width: 960px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 40px auto 0;
+  background-color: $gb-color-1;
+  color: $gb-color-4;
+  border-radius: 8px;
+  border: 4px solid $gb-color-3;
+  box-shadow: 0 2px $gb-color-2, 0 -2px $gb-color-2;
+  font-size: 1.6em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.25em;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1em;
+  }
+}

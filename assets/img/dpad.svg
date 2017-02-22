@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="95.421px" height="95.421px" viewBox="0 0 95.421 95.421" enable-background="new 0 0 95.421 95.421" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<rect id="BG" x="-665" y="-12.289" display="inline" fill="#FFFFFF" width="1920" height="1080"/>
+	<rect id="TopNav" x="-665" y="-12.289" display="inline" fill="#DFDEDE" width="1920" height="120"/>
+	<g display="inline">
+		<circle fill="#CFCECE" cx="47.71" cy="47.711" r="47.71"/>
+		<g>
+			<path fill="#2F2F2F" d="M81.71,32.711h-19v-19c0-3.3-2.7-6-6-6h-18c-3.3,0-6,2.7-6,6v19h-19c-3.3,0-6,2.7-6,6v18c0,3.3,2.7,6,6,6
+				h19v19c0,3.3,2.7,6,6,6h18c3.3,0,6-2.7,6-6v-19h19c3.3,0,6-2.7,6-6v-18C87.71,35.411,85.01,32.711,81.71,32.711z"/>
+			<circle fill="#1E1E1E" cx="47.71" cy="47.711" r="10"/>
+			<polygon fill="#1E1E1E" points="27.71,37.711 12.71,47.711 27.71,57.711 			"/>
+			<polygon fill="#1E1E1E" points="37.71,27.711 47.71,12.711 57.71,27.711 			"/>
+			<polygon fill="#1E1E1E" points="37.71,67.711 47.71,82.711 57.71,67.711 			"/>
+			<polygon fill="#1E1E1E" points="67.71,37.711 82.71,47.711 67.71,57.711 			"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1_copy">
+	<rect id="BG_1_" x="-665" y="-12.289" display="none" fill="#FFFFFF" width="1920" height="1080"/>
+	<rect id="TopNav_1_" x="-665" y="-12.289" display="none" fill="#DFDEDE" width="1920" height="120"/>
+	<g>
+		<circle fill="#CFCECE" cx="47.71" cy="47.711" r="47.71"/>
+		<g>
+			<path fill="#2F2F2F" d="M81.71,32.711h-19v-19c0-3.3-2.7-6-6-6h-18c-3.3,0-6,2.7-6,6v19h-19c-3.3,0-6,2.7-6,6v18c0,3.3,2.7,6,6,6
+				h19v19c0,3.3,2.7,6,6,6h18c3.3,0,6-2.7,6-6v-19h19c3.3,0,6-2.7,6-6v-18C87.71,35.411,85.01,32.711,81.71,32.711z"/>
+			<circle fill="#1E1E1E" cx="47.71" cy="47.711" r="10"/>
+			<polygon fill="#1E1E1E" points="27.71,37.711 12.71,47.711 27.71,57.711 			"/>
+			<polygon fill="#1E1E1E" points="37.71,27.711 47.71,12.711 57.71,27.711 			"/>
+			<polygon fill="#1E1E1E" points="37.71,67.711 47.71,82.711 57.71,67.711 			"/>
+			<polygon fill="#1E1E1E" points="67.71,37.711 82.71,47.711 67.71,57.711 			"/>
+		</g>
+	</g>
+</g>
+</svg>

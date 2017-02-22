@@ -27,9 +27,15 @@ repository: doczal/doczal.github.io
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+exclude: ["Gemfile",
+          "Gemfile.lock",
+          "gulpfile.js",
+          "node_modules",
+          "package.json"]
+
+
+sass:
+  sass_dir: assets/css
