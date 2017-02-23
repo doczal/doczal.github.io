@@ -459,12 +459,8 @@ header {
         line-height: 92px;
         text-decoration: none;
         color: #214631;
-        -webkit-transition: 0.3s;
-        transition: 0.3s;
         white-space: nowrap;
         overflow: hidden; }
-        header .header-wrap .header-main a:hover {
-          letter-spacing: 0.05em; }
         @media screen and (max-width: 600px) {
           header .header-wrap .header-main a {
             line-height: 52px;
@@ -478,7 +474,15 @@ header {
         background-color: #d7e594;
         -webkit-border-radius: 8px;
                 border-radius: 8px;
-        border: 4px solid #2f2f2f; }
+        border: 4px solid #2f2f2f;
+        color: #214631;
+        -webkit-transition: color 0.3s, background-color 0.3s;
+        transition: color 0.3s, background-color 0.3s;
+        cursor: pointer; }
+        header .header-wrap .header-main .game-screen:hover {
+          background-color: #214631; }
+          header .header-wrap .header-main .game-screen:hover a {
+            color: #d7e594; }
     header .header-wrap [class^="side-panel-"] {
       display: block;
       position: relative;
