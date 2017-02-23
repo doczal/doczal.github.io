@@ -1,18 +1,20 @@
 <section id="projects">
 
-  <div class="project-wrap-odd-1">
+ {% for project in site.data.content.projects %}
+  <a href="{{ project.url }}" class="project-wrap-{{ project.class }}">
     <div class="project-cart">
       <div class="cart-part-l"></div>
       <div class="cart-part-r"></div>
-      <div class="cart-title">Digital Art</div>
+      <div class="cart-title">{{ project.type }}</div>
       <div class="side-sticker-l"></div>
       <div class="side-sticker-r"></div>
-      <img class="cart-image" src="/assets/img/artwork.png">
+      <img class="cart-image" src="{{ project.image }}">
     </div>
-    <h3 class="project-title">Project A</h3>
-    <p class="project-desc">Some of my personal artwork, all done digitally.</p>
-  </div>
-
+    <h3 class="project-title">{{ project.name }}</h3>
+    <p class="project-desc">{{ project.desc }}</p>
+  </a>
+  {% endfor %}
+  <!--
   <div class="project-wrap-even-1">
     <div class="project-cart">
       <div class="cart-part-l"></div>
@@ -53,4 +55,5 @@
   </div>
   <div class="project-wrap-odd-1"></div>
   <div class="project-wrap-even-1"></div>
+  -->
 </section>

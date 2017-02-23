@@ -5,14 +5,6 @@ section#projects {
   margin: 40px auto 0;
   box-shadow: 0 0 12px $darkgrey-2;
 
-  @media screen and (max-width: 600px) {
-    width: 86%;
-  }
-
-  @media screen and (max-width: 600px) {
-    width: 86%;
-  }
-
   [class^="project-wrap"] {
     position: relative;
     width: 50%;
@@ -21,7 +13,7 @@ section#projects {
     float: left;
     text-align: center;
     overflow: hidden;
-    cursor: pointer;
+    text-decoration: none;
     border: none;
     transition: background-color 0.3s, color 0.3s;
     color: $darkgrey-2;
@@ -86,8 +78,8 @@ section#projects {
       transition: margin-top 0.3s;
 
       @media screen and (max-width: 768px) {
-        width: 220px;
         height: 230px;
+        width: 220px;
       }
 
       [class^="cart-part"] {
@@ -134,7 +126,7 @@ section#projects {
         display: block;
         position: absolute;
         bottom: 6%;
-        width: 68%;
+        width: auto;
         height: 68%;
         background-color: $cart-color-1;
         margin: 0 auto;

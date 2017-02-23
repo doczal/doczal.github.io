@@ -415,7 +415,7 @@ template {
 body {
   font-family: 'Roboto'; }
 
-.clearfix:after, section#projects:after {
+.clearfix:after, section#projects:after, section#project-info:after {
   content: "";
   display: table;
   clear: both; }
@@ -423,7 +423,7 @@ body {
 body {
   background-color: #214631;
   background-image: url("/assets/img/background1.svg");
-  background-size: contain; }
+  background-size: 100%; }
 
 header {
   height: 120px;
@@ -509,12 +509,6 @@ section#projects {
   margin: 40px auto 0;
   -webkit-box-shadow: 0 0 12px #2f2f2f;
           box-shadow: 0 0 12px #2f2f2f; }
-  @media screen and (max-width: 600px) {
-    section#projects {
-      width: 86%; } }
-  @media screen and (max-width: 600px) {
-    section#projects {
-      width: 86%; } }
   section#projects [class^="project-wrap"] {
     position: relative;
     width: 50%;
@@ -524,7 +518,7 @@ section#projects {
     float: left;
     text-align: center;
     overflow: hidden;
-    cursor: pointer;
+    text-decoration: none;
     border: none;
     -webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
@@ -568,8 +562,8 @@ section#projects {
       transition: margin-top 0.3s; }
       @media screen and (max-width: 768px) {
         section#projects [class^="project-wrap"] .project-cart {
-          width: 220px;
-          height: 230px; } }
+          height: 230px;
+          width: 220px; } }
       section#projects [class^="project-wrap"] .project-cart [class^="cart-part"] {
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
@@ -607,7 +601,7 @@ section#projects {
         display: block;
         position: absolute;
         bottom: 6%;
-        width: 68%;
+        width: auto;
         height: 68%;
         background-color: #b9b9b9;
         margin: 0 auto;
@@ -628,6 +622,68 @@ section#projects {
           right: 10%;
           -webkit-border-radius: 0 8px 8px 0;
                   border-radius: 0 8px 8px 0; }
+
+section#project-info {
+  width: 86%;
+  max-width: 1170px;
+  margin: 40px auto 0;
+  text-align: center; }
+  section#project-info .project-info-title {
+    text-align: center;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: #d7e594;
+    color: #214631;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    border: 4px solid #537e39;
+    -webkit-box-shadow: 0 2px #aec43d, 0 -2px #aec43d;
+            box-shadow: 0 2px #aec43d, 0 -2px #aec43d; }
+    section#project-info .project-info-title h1 {
+      font-family: 'Dosis';
+      font-size: 2.5em;
+      text-transform: uppercase;
+      margin: 10px auto 0;
+      display: inline-block; }
+      @media screen and (max-width: 600px) {
+        section#project-info .project-info-title h1 {
+          font-size: 2em; } }
+      @media screen and (max-width: 420px) {
+        section#project-info .project-info-title h1 {
+          font-size: 1.5em; } }
+    section#project-info .project-info-title .project-type {
+      font-size: 1em;
+      margin: 5px 0 10px; }
+  section#project-info .project-info-content {
+    margin: 40px auto 0;
+    overflow: auto;
+    width: 100%;
+    -webkit-box-shadow: 0 0 12px #2f2f2f;
+            box-shadow: 0 0 12px #2f2f2f;
+    background-color: #ededed;
+    position: relative;
+    padding: 12px 0; }
+    section#project-info .project-info-content img {
+      display: block;
+      width: 94%;
+      max-width: 960px;
+      -webkit-box-shadow: 0 0 8px #2f2f2f;
+              box-shadow: 0 0 8px #2f2f2f;
+      margin: 24px auto; }
+    section#project-info .project-info-content p {
+      font-size: 1.17em;
+      text-align: left;
+      display: block;
+      max-width: 960px;
+      padding: 0 6%;
+      margin-left: auto;
+      margin-right: auto; }
+      @media screen and (max-width: 600px) {
+        section#project-info .project-info-content p {
+          font-size: 1em; } }
 
 section#about {
   width: 80%;

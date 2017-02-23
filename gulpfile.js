@@ -33,15 +33,18 @@ gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-dev'], function() {
 
 gulp.task('sass', function () {
   return gulp.src('_dev/css/main.scss')
-  .pipe(sass({
-    includePaths: ['scss'],
-    onError: browserSync.notify
-  }))
+  .pipe(sass())
   .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
   .pipe(gulp.dest('_site/assets/css'))
   .pipe(browserSync.reload({stream:true}))
   .pipe(gulp.dest('assets/css'));
 });
+
+/*
+.pipe(sass({
+  includePaths: ['scss'],
+  onEr
+*/
 
 gulp.task('scripts', function() {
   return gulp.src('_dev/js/*.js')

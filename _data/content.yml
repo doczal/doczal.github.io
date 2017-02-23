@@ -1,0 +1,15 @@
+# Site settings
+title: Artists Theme
+email: artist@email
+description: "Thinker // Designer // Whatever"
+
+# Project List
+projects:
+- { name: 'Rizal Zainal', type: 'Web Dev', desc: 'My personal website and online portfolio.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'odd-1' }
+- { name: 'South West Allied Therapies', type: 'Web Dev', desc: 'A website for a mobile health service provider.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'even-1' }
+- { name: 'GG Coaching', type: 'Web Dev', desc: 'A single-page website I put together for practice.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'odd-2' }
+- { name: 'Sit n Go Poker', type: 'UI/UX Design', desc: 'A Sit & Go Poker mobile app concept.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'even-2' }
+- { name: 'Ninjet', type: 'Game Dev', desc: "A shoot 'em up game developed for iOS and Android devices.", image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'odd-1' }
+- { name: 'Digital Art', type: 'Digital Art', desc: 'A collection of my digital paintings and artwork.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'even-1' }
+- { name: 'Video Showreel', type: 'Video', desc: 'A compilation of my past video-editing work.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'odd-2' }
+- { name: 'Emoticon Set', type: 'Graphic Design', desc: 'A playful emoticon set.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'even-2' }
