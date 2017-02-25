@@ -38,6 +38,7 @@ header {
         color: $gb-color-4;
         white-space: nowrap;
         overflow: hidden;
+        transition: line-height 0.3s, font-size 0.3s;
 
         @media screen and (max-width: 600px) {
           line-height: $header-height-m - 20px - 8px;
@@ -87,11 +88,3 @@ header {
     }
   }
 }
-
-/*
-@media screen and (max-width: 480px) {
-  header {
-    height: $header-height-m;
-  }
-}
-*/

@@ -46,22 +46,60 @@ section#project-info {
     box-shadow: 0 0 12px $darkgrey-2;
     background-color: $bg-color-1;
     position: relative;
-    padding: 12px 0;
+    padding: 24px 0 40px;;
 
 
     img {
       display: block;
       width: 94%;
-      max-width: 960px;
-      box-shadow: 0 0 8px $darkgrey-2;
-      margin: 24px auto;
+      max-width: 900px;
+      box-shadow: 0 0 5px $darkgrey-2;
+      margin: 36px auto;
+
+      @media screen and (max-width: 600px) {
+        margin: 24px auto;
+      }
+    }
+
+    .gallery {
+      width: 100%;
+      padding: 0 4%;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    a.art-thumb {
+      display: block;
+      float: left;
+      box-sizing: border-box;
+      padding: 10px;
+      opacity: 0.75;
+      transition: opacity 0.3s;
+      width: calc(100% / 3);
+
+      &:hover {
+        opacity: 1;
+      }
+
+      @media screen and (max-width: 768px) {
+        width: 50%;
+      }
+
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        margin: 0;
+      }
     }
 
     p {
       font-size: 1.17em;
       text-align: left;
       display: block;
-      max-width: 960px;
+      max-width: 900px;
       padding: 0 6%;
       margin-left: auto;
       margin-right: auto;
@@ -69,6 +107,40 @@ section#project-info {
       @media screen and (max-width: 600px) {
         font-size: 1em;
       }
+    }
+
+    ul {
+      font-size: 1.17em;
+      text-align: left;
+      max-width: 900px;
+      margin: 0 5% 0 6%;
+      padding: 0 8%;
+
+      @media screen and (max-width: 600px) {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .responsive-video {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    margin-bottom: 36px;
+
+    iframe {
+      box-sizing: border-box;
+      padding: 0 4%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
   }
 

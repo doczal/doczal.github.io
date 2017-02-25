@@ -27,7 +27,7 @@ gulp.task('jekyll-rebuild', ['jekyll-dev'], function () {
 gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-dev'], function() {
   browserSync.init({
     server: "_site",
-    port: 1234
+    online: true
   });
 });
 
@@ -56,8 +56,8 @@ gulp.task('scripts', function() {
 
 gulp.task('watch', function () {
   gulp.watch(['_dev/css/**/*.scss'], ['sass']);
-  //gulp.watch(['_dev/js/**/*.js'], ['scripts']);
-  gulp.watch(['index.html', '_layouts/*.html', '_posts/*', '_includes/*.html', '_drafts/*', '**/*.html'], ['jekyll-rebuild']);
+  gulp.watch(['_dev/js/**/*.js'], ['scripts']);
+  gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '**/*.html'], ['jekyll-rebuild']);
 });
 
 gulp.task('jekyll-prod', function (done) {
@@ -71,7 +71,7 @@ gulp.task('sass-prod', function () {
   .pipe(sass())
   .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
   .pipe(cssnano())
-  .pipe(gulp.dest('assets/css'));
+  .pipe(gulp.dest('_site/css'));
   //.pipe(gulp.dest('css'));
 });
 
@@ -86,7 +86,7 @@ gulp.task('scripts-prod', function() {
   return gulp.src('_dev/js/*.js')
   .pipe(concat('scripts.js'))
   .pipe(uglify())
-  .pipe(gulp.dest('assets/js'));
+  .pipe(gulp.dest('_site/js'));
   //.pipe(gulp.dest('js'));
 });
 

@@ -1,6 +1,38 @@
 body {
   background-color: $gb-color-4;
-  background-image: url('/assets/img/background1.svg');
-  //background-repeat: repeat-y;
+  background-image: url('/assets/img/background.svg');
   background-size: 100%;
+  font-family: 'Roboto';
+}
+
+a {
+  color: $gb-color-3;
+  &:visited {
+    color: $gb-color-4;
+  }
+  &:hover, &:visited:hover{
+    color: $gb-color-2;
+  }
+}
+
+a.button {
+  display: inline-block;
+  max-width: 240px;
+  height: 60px;
+  width: 94%;
+  font-family: Dosis;
+  line-height: 60px;
+  color: $gb-color-4;
+  background-color: $gb-color-2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-radius: 8px;
+  transition: color 0.3s, background-color 0.3s;
+
+  &:hover {
+    color: $gb-color-1;
+    background-color: $gb-color-3;
+  }
+
 }

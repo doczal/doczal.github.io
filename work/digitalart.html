@@ -1,0 +1,14 @@
+---
+title: Digital Artwork
+description: A collection of my digital paintings and artwork.
+layout: project-info
+type: Digital Art
+permalink: /digitalart/
+---
+
+<p>I like to draw, and I usually do it digitally with a drawing tablet. These are some of my finished pieces, mostly done in Photoshop.</p>
+<div class="gallery">
+  {% for art in site.data.content.artwork %}
+    <a class="art-thumb" href="{{ art.url }}"><img src="{{ art.thumb }}" alt="{{ art.alt }}"></a>
+  {% endfor %}
+</div>

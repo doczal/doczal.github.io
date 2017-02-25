@@ -1,15 +1,24 @@
-# Site settings
-title: Artists Theme
-email: artist@email
-description: "Thinker // Designer // Whatever"
-
 # Project List
 projects:
-- { name: 'Rizal Zainal', type: 'Web Dev', desc: 'My personal website and online portfolio.', image: '/assets/img/proj_rz.png', url: '/project1.html', class: 'odd-1' }
-- { name: 'South West Allied Therapies', type: 'Web Dev', desc: 'A website for a mobile health service provider.', image: '/assets/img/proj_swat.png', url: '/project1.html', class: 'even-1' }
-- { name: 'GG Coaching', type: 'Web Dev', desc: 'A single-page website I put together for practice.', image: '/assets/img/proj_ggc.png', url: '/project1.html', class: 'odd-2' }
-- { name: 'Sit n Go Poker', type: 'UI/UX Design', desc: 'A Sit & Go Poker mobile app concept.', image: '/assets/img/proj_sng.png', url: '/project1.html', class: 'even-2' }
-- { name: 'Ninjet', type: 'Game Dev', desc: "A shoot 'em up game developed for Android devices.", image: '/assets/img/proj_ninjet.png', url: '/project1.html', class: 'odd-1' }
-- { name: 'Digital Art', type: 'Digital Art', desc: 'A collection of my digital paintings and artwork.', image: '/assets/img/proj_art.png', url: '/project1.html', class: 'even-1' }
-- { name: 'Video Showreel', type: 'Video', desc: 'A compilation of my past video-editing work.', image: '/assets/img/proj_video.png', url: '/project1.html', class: 'odd-2' }
-- { name: 'Emoticon Set', type: 'Graphic Design', desc: 'A fun set of emoticons.', image: '/assets/img/proj_emote.png', url: '/project1.html', class: 'even-2' }
+- { name: 'Rizal Zainal', type: 'Web Dev', desc: 'My personal website and online portfolio.', image: '/assets/img/proj_rz.png', url: '/rizal', class: 'odd-1' }
+- { name: 'South West Allied Therapies', type: 'Web Dev', desc: 'A website for a mobile health service provider.', image: '/assets/img/proj_swat.png', url: '/swat', class: 'even-1' }
+- { name: 'GG Coaching', type: 'Web Dev', desc: 'A single-page website I put together for practice.', image: '/assets/img/proj_ggc.png', url: '/ggcoaching', class: 'odd-2' }
+- { name: 'Sit N Go Poker', type: 'UI/UX Design', desc: 'A Sit & Go Poker mobile app concept.', image: '/assets/img/proj_sng.png', url: '/sitngo', class: 'even-2' }
+- { name: 'Ninjet', type: 'Game Dev', desc: "A shoot 'em up game developed for Android devices.", image: '/assets/img/proj_ninjet.png', url: '/ninjet', class: 'odd-1' }
+- { name: 'Digital Artwork', type: 'Digital Art', desc: 'A collection of my digital paintings and artwork.', image: '/assets/img/proj_art.png', url: '/digitalart', class: 'even-1' }
+- { name: 'Video Showreel', type: 'Video', desc: 'A compilation of my past video-editing work.', image: '/assets/img/proj_video.png', url: '/showreel', class: 'odd-2' }
+- { name: 'Emoticon Set', type: 'Graphic Design', desc: 'A fun set of emoticons.', image: '/assets/img/proj_emote.png', url: '/emoticons', class: 'even-2' }
+
+# Artwork List
+artwork:
+- { thumb: '/assets/img/art/art_thumb_1.png', url: '/assets/img/art/art_1.png', alt: 'Giant Samurai Mech'}
+- { thumb: '/assets/img/art/art_thumb_2.png', url: '/assets/img/art/art_2.png', alt: 'Pokemon Trainer'}
+- { thumb: '/assets/img/art/art_thumb_3.png', url: '/assets/img/art/art_3.png', alt: 'Dragon Ball Z'}
+- { thumb: '/assets/img/art/art_thumb_4.png', url: '/assets/img/art/art_4.png', alt: "Don't Starve"}
+- { thumb: '/assets/img/art/art_thumb_5.png', url: '/assets/img/art/art_5.png', alt: '6 Eyed Crow'}
+- { thumb: '/assets/img/art/art_thumb_6.png', url: '/assets/img/art/art_6.png', alt: 'Frog Girl'}
+- { thumb: '/assets/img/art/art_thumb_7.png', url: '/assets/img/art/art_7.jpg', alt: 'Bouguereau Study'}
+- { thumb: '/assets/img/art/art_thumb_8.png', url: '/assets/img/art/art_8.jpg', alt: 'Environmental Study'}
+- { thumb: '/assets/img/art/art_thumb_9.png', url: '/assets/img/art/art_9.png', alt: 'Samurai'}
+- { thumb: '/assets/img/art/art_thumb_10.png', url: '/assets/img/art/art_10.png', alt: 'Greek Statue'}
+- { thumb: '/assets/img/art/art_thumb_11.png', url: '/assets/img/art/art_11.png', alt: 'Wedding Invitation'}
