@@ -2,7 +2,7 @@
 projects:
 - { name: 'Rizal Zainal', type: 'Web Dev', desc: 'My personal website and online portfolio.', image: '/assets/img/proj_rz.png', url: '/rizal', class: 'odd-1' }
 - { name: 'South West Allied Therapies', type: 'Web Dev', desc: 'A website for a mobile health service provider.', image: '/assets/img/proj_swat.png', url: '/swat', class: 'even-1' }
-- { name: 'GG Coaching', type: 'Web Dev', desc: 'A single-page website I put together for practice.', image: '/assets/img/proj_ggc.png', url: '/ggcoaching', class: 'odd-2' }
+- { name: 'GG Coaching', type: 'Web Dev', desc: 'A single-page website I put together for practice.', image: '/assets/img/proj_ggc.png', url: '/ggcoaching-info', class: 'odd-2' }
 - { name: 'Sit N Go Poker', type: 'UI/UX Design', desc: 'A Sit & Go Poker mobile app concept.', image: '/assets/img/proj_sng.png', url: '/sitngo', class: 'even-2' }
 - { name: 'Ninjet', type: 'Game Dev', desc: "A shoot 'em up game developed for Android devices.", image: '/assets/img/proj_ninjet.png', url: '/ninjet', class: 'odd-1' }
 - { name: 'Digital Artwork', type: 'Digital Art', desc: 'A collection of my digital paintings and artwork.', image: '/assets/img/proj_art.png', url: '/digitalart', class: 'even-1' }
