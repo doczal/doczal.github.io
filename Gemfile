@@ -29,3 +29,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # for seo
 gem 'jekyll-seo-tag'
+
+# fix nokogiri vulnerability
+gem 'nokogiri', '~> 1.8.1'
